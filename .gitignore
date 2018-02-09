@@ -1,5 +1,11 @@
+### IntelliJ IDEA ###
 target/
 !.mvn/wrapper/maven-wrapper.jar
+!.idea/libraries/message_object.xml
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### STS ###
 .apt_generated
@@ -9,12 +15,6 @@ target/
 .settings
 .springBeans
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
 ### NetBeans ###
 nbproject/private/
 build/
@@ -22,3 +22,11 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+#Eclipse
+.project/*
+.settings/*
+.classpath
+
+#Mac
+.DS_Store
